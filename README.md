@@ -39,6 +39,7 @@ Install directly from GitHub:
 
 npm install git+https://github.com/fahmiismail90/zebra-bluetooth-printer-mendix.git
 
+---
 
 \##📱 Android Requirements
 
@@ -47,6 +48,7 @@ npm install git+https://github.com/fahmiismail90/zebra-bluetooth-printer-mendix.
 \-Bluetooth enabled on device
 \-Bluetooth permissions granted
 
+---
 
 \##🔐 Android Permissions
 
@@ -58,6 +60,8 @@ Make sure the following permissions exist in AndroidManifest.xml:
 
 \##⚠️ On Android 12+, Bluetooth permission must be granted at runtime.
 
+---
+
 \##🧩 Usage Example (JavaScript)
 
 import ZebraPrinter from 'zebra-bluetooth-printer-mendix';
@@ -68,11 +72,15 @@ ZebraPrinter.printZPL(`
 ^XZ
 `);
 
+---
+
 \##🛠 Mendix Integration Notes
 
 Call this module from a JavaScript Action
 Use it only in Native Mobile profiles
 Not supported in Web profile
+
+---
 
 \##⚠️ Limitations
 
@@ -81,11 +89,15 @@ Not supported in Web profile
 ✅ Bluetooth only
 ✅ Android only
 
+---
+
 \##🧪 Tested With
 
 Zebra ZQ / ZD / TC series
 Android 10+
 Mendix Native (React Native)
+
+---
 
 \##👤 Maintainer
 
